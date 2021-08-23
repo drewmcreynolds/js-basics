@@ -1,7 +1,7 @@
 //1. Given two numbers, write a function that will return  the larger number
 
 function largerNum(num1, num2) {
-    // you code here
+    return Math.max(num1, num2)
 
 }
 
@@ -14,6 +14,9 @@ function largerNum(num1, num2) {
 // output: "F"
 
 function testGrader(score, possible) {
+    
+        return toString(score, possible)
+        
 
 }
 
