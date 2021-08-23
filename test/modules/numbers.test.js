@@ -45,6 +45,10 @@ describe("numbers.js", () => {
       let _sut = isEven(5)
       chai.assert.isTrue(!_sut && typeof _sut == 'boolean', "Be sure to return false for odd numbers")
     })
+    it("The number 597 returns false", () => {
+      let _sut = isEven(597)
+      chai.assert.isTrue(!_sut && typeof _sut == 'boolean', "Be sure to return false for odd numbers")
+    })
   })
 
   describe("NumberGenerator Function", () => {
